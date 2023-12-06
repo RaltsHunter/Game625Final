@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 1
   itemName: Blue Key
   value: 0
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: e67c557226e092c48898d5fe39fb395e, type: 3}

@@ -2423,11 +2423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88deff0efc66f943809d82444410443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winDisplay: {fileID: 134888282}
-  scoreDisplay: {fileID: 1258733402}
-  hunger: 0
-  healthy: 0
-  junk: 0
 --- !u!1001 &1210149080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3029,7 +3024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1501469497
 MonoBehaviour:
   m_ObjectHideFlags: 0
