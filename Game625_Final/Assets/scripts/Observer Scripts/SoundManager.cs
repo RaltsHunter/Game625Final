@@ -38,6 +38,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlayCollectSound()
     {
+        /*
         Debug.Log("PlayCollectSound called"); 
 
         if (collectSound != null)
@@ -49,5 +50,6 @@ public class SoundManager : MonoBehaviour
         {
             Debug.LogWarning("Collect sound is not assigned!");
         }
+        */
     }
 }

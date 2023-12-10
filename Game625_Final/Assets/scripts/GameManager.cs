@@ -8,40 +8,20 @@ public class GameManager : MonoBehaviour
 {
     public TMP_Text winDisplay;
     public TMP_Text scoreDisplay;
-    public int hunger = 0;
-    public int healthy = 0;
-    public int junk = 0;
     public int keys = 0;
 
     // Update is called once per frame
     void Update()
     {
+        keys = GameObject.FindGameObjectsWithTag("Key").Length;
 
-        //scoreDisplay.text = "Fullness: " + hunger;
-        winDisplay.text = "Find The Keys!";
-
-        /*
-        if (hunger == 100)
+        if (GameObject.FindGameObjectsWithTag("Key").Length == 0)
         {
-            scoreDisplay.text = "You're Full!";
-            if (healthy > junk)
-            {
-                winDisplay.text = "You are healthy!";
-            }
-            if (healthy < junk)
-            {
-                winDisplay.text = "You are unhealthy...";
-            }
-            if (healthy == junk)
-            {
-                winDisplay.text = "You ate a balanced meal!";
-            }
+            winDisplay.text = "You have all the keys! Get out now!";
         }
-        if (hunger > 100)
+        else
         {
-            scoreDisplay.text = "You're Full!";
-            winDisplay.text = "You're overeating!";
+            winDisplay.text = "Find the keys to escape before the monster arrives!";
         }
-        */
     }
 }

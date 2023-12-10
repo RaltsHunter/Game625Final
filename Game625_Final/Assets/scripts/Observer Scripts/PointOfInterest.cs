@@ -26,19 +26,21 @@ public class PointOfInterest : Subject
 
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "Key")
-        {
-            Notify(poiName, NotificationType.AchievementUnlocked);
-            Pickup();
-            
-            /*
-            gm.healthy++;
-            gm.hunger = gm.hunger + 10;
-            Debug.Log("Healthy food: " + gm.healthy);
-            Debug.Log("Fullness: " + gm.hunger);
-            */
-            
-        }
+            if (gameObject.tag == "Key")
+            {
+                Notify(poiName, NotificationType.AchievementUnlocked);
+                Pickup();
+                //gm.keys++;
+
+
+                /*
+                gm.healthy++;
+                gm.hunger = gm.hunger + 10;
+                Debug.Log("Healthy food: " + gm.healthy);
+                Debug.Log("Fullness: " + gm.hunger);
+                */
+
+            }
 
     }
     public void Collect()
