@@ -8,6 +8,7 @@ TagManager:
   - Door
   - UITrigger
   - Junk
+  - Winscreen
   layers:
   - Default
   - TransparentFX
