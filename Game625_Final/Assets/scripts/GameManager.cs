@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            winDisplay.text = "Find the keys to escape before the monster arrives!";
+            winDisplay.text = "Find the keys to escape, lest your soul be consumed by oncoming torment!";
         }
     }
 }
